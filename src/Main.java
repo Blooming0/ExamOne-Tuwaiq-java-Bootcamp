@@ -52,6 +52,7 @@ public class Main {
         ----------(Question Four)-----------
         Write a Java program to find positive and negative numbers of a given array
         ----------(Solution)---------------
+        //the Zero case is ignored according to the instructor ( Majd )call
         int []numbers = {10, -21 , 30, 31, -25};
         for(int number : numbers){
             System.out.println((number > 0)? number+" is a positive number ":number+" is a negative number ");
